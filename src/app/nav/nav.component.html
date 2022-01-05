@@ -1,0 +1,22 @@
+<div class="conteiner justify-content-start align-items-center justify-content-center">
+  <div class="flex-shrink-0 p-3 bg-black">
+      <ul class="nav">
+        <li class="nav-item">
+          <a routerLink="/home" class="fs-5 text-decoration-none">
+            <span class="text-white">Início</span>
+          </a>
+          <hr>
+        <li class="nav-item">
+          <a routerLink="/cafe" routerLinkActive="router-link"  class="fs-5 text-white text-decoration-none" aria-current="page">
+            Lista
+          </a>
+          <hr>
+        </li>
+        <hr>
+      </ul>
+    </div>
+    <div class="home">
+      <router-outlet></router-outlet>
+    </div>
+</div>
+  
